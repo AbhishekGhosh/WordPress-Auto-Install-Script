@@ -17,7 +17,7 @@ echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 echo " "
-echo "sudo su"
+sudo su
 fi
 echo " "
 echo "Supply the MySQL password below:"
